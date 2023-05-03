@@ -3,9 +3,19 @@
 
 For the For Loop including the four most effective drug treatments, I looked at the Slack chanel for insight. Aaron Otto and Kendal Bergman shared their thought process and reasoning on how they came up with the structure of their for loop. 
 
+
 I referred to Matplotlib cheatsheets with formatting and syntax for the box plot and scatter plot section of the analyses. (https://matplotlib.org/cheatsheets/)
 
+
 I have had weekly tutor sessions with Matthew Werth on Fridays. Though we didn't look at the homework assignment specifically, his insight and explanation of matplotlib helped me with this assignment. 
+
+
+
+
+
+
+
+
 
 
 
