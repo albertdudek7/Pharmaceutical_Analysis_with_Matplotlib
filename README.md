@@ -22,57 +22,15 @@ Created bar charts and pie charts.
 Calculated quartiles, find outliers, and created a box plot.
 ![image](https://github.com/albertdudek7/Pharmaceutical_Analysis_with_Matplotlib/assets/127783844/85712eaa-64e6-49eb-9e90-d08f79757410)
 ![image](https://github.com/albertdudek7/Pharmaceutical_Analysis_with_Matplotlib/assets/127783844/cb5d1485-4858-47a0-b70f-8f765420355b)
-![Uploading image.png…]()
+![image](https://github.com/albertdudek7/Pharmaceutical_Analysis_with_Matplotlib/assets/127783844/a282cf50-732b-4120-aeee-4af1a5d15cfe)
 
 Created a line plot and a scatter plot.
+![image](https://github.com/albertdudek7/Pharmaceutical_Analysis_with_Matplotlib/assets/127783844/709ec62c-fd5c-421a-9139-f5d43948d439)
+![image](https://github.com/albertdudek7/Pharmaceutical_Analysis_with_Matplotlib/assets/127783844/4e113dab-b1fc-4fb2-b23e-e7326f2cc93f)
 
 Calculate correlation and regression.
+![image](https://github.com/albertdudek7/Pharmaceutical_Analysis_with_Matplotlib/assets/127783844/8e8d89e8-1512-4dc7-9746-6dd9a4e60035)
 
-Submit your final analysis.
-
-
-
-Your summary statistics should include:
-
-A row for each drug regimen. These regimen names should be contained in the index column.
-
-A column for each of the following statistics: mean, median, variance, standard deviation, and SEM of the tumor volume.
-
-Create Bar Charts and Pie Charts
-Generate two bar charts. Both charts should be identical and show the total total number of rows (Mouse ID/Timepoints) for each drug regimen throughout the study.
-
-Create the first bar chart with the Pandas DataFrame.plot() method.
-
-Create the second bar chart with Matplotlib's pyplot methods.
-
-Generate two pie charts. Both charts should be identical and show the distribution of female versus male mice in the study.
-
-Create the first pie chart with the Pandas DataFrame.plot() method.
-
-Create the second pie chart with Matplotlib's pyplot methods.
-
-Calculate Quartiles, Find Outliers, and Create a Box Plot
-Calculate the final tumor volume of each mouse across four of the most promising treatment regimens: Capomulin, Ramicane, Infubinol, and Ceftamin. Then, calculate the quartiles and IQR, and determine if there are any potential outliers across all four treatment regimens. Use the following substeps:
-
-Create a grouped DataFrame that shows the last (greatest) time point for each mouse. Merge this grouped DataFrame with the original cleaned DataFrame.
-
-Create a list that holds the treatment names as well as a second, empty list to hold the tumor volume data.
-
-Loop through each drug in the treatment list, locating the rows in the merged DataFrame that correspond to each treatment. Append the resulting final tumor volumes for each drug to the empty list.
-
-Determine outliers by using the upper and lower bounds, and then print the results.
-
-Using Matplotlib, generate a box plot that shows the distribution of the final tumor volume for all the mice in each treatment group. Highlight any potential outliers in the plot by changing their color and style.
-
-hint: All four box plots should be within the same figure. Use this Matplotlib documentation pageLinks to an external site. for help with changing the style of the outliers.
-
-Create a Line Plot and a Scatter Plot
-Select a single mouse that was treated with Capomulin, and generate a line plot of tumor volume versus time point for that mouse.
-
-Generate a scatter plot of mouse weight versus average observed tumor volume for the entire Capomulin treatment regimen.
-
-Calculate Correlation and Regression
-Calculate the correlation coefficient and linear regression model between mouse weight and average observed tumor volume for the entire Capomulin treatment regimen.
-
-Plot the linear regression model on top of the previous scatter plot.
+Final analysis.
+![image](https://github.com/albertdudek7/Pharmaceutical_Analysis_with_Matplotlib/assets/127783844/67f6c86b-9c85-44d8-8e6f-933983539147)
 
